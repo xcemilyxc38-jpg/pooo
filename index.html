@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메디컬 웰니스 | 프리미엄 남성 활력 솔루션</title>
+    <style>
+        /* 프리미엄 모바일 최적화 K-Style 디자인 */
+        :root {
+            --primary: #5856d6; /* 신뢰감을 주는 테크 퍼플 */
+            --accent: #ff2d55;  /* 시선을 사로잡는 포인트 레드 */
+            --bg-light: #f8f9fa; /* 깔끔한 라이트 배경 */
+            --text-dark: #1c1c1e;
+            --border-color: #e5e5ea;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; }
+        body { background-color: var(--bg-light); color: var(--text-dark); overflow-x: hidden; line-height: 1.6; }
+
+        /* 심플 헤더 */
+        header {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 15px 5%; background: #ffffff; position: sticky; top: 0; z-index: 100;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .logo { font-size: 20px; font-weight: 800; color: var(--primary); text-decoration: none; letter-spacing: -0.5px; }
+        nav a { color: #3a3a3c; text-decoration: none; margin-left: 20px; font-size: 14px; font-weight: bold; }
+        nav a:hover { color: var(--primary); }
+
+        /* 메인 랜딩 영역 */
+        .container { max-width: 600px; margin: 0 auto; background: #ffffff; padding: 40px 20px; box-shadow: 0 0 20px rgba(0,0,0,0.02); }
+
+        /* 요청하신 핵심 감성 카피라이팅 섹션 */
+        .copy-section {
+            background: #fff; padding: 15px 10px; border-radius: 12px; margin-bottom: 35px;
+            text-align: center; border-left: 4px solid var(--accent); background: #fff5f7;
+        }
+        .copy-section p { font-size: 16px; font-weight: 500; color: #3a3a3c; margin-bottom: 18px; }
+        .copy-section .strong-text { font-size: 17px; font-weight: 700; color: #000; }
+        .copy-section .highlight-text { color: var(--accent); font-weight: 800; font-size: 18px; }
+
+        /* 상품 카드 영역 (가격 표시 제거형) */
+        .product-card {
+            background: #ffffff; border: 1px solid var(--border-color);
+            border-radius: 16px; padding: 25px; margin-bottom: 30px; text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+        }
+        .product-img { width: 100%; height: 260px; background: #f2f2f7; border-radius: 12px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; font-size: 60px; }
+        .product-tag { display: inline-block; background: var(--primary); color: #fff; font-size: 12px; padding: 4px 10px; border-radius: 6px; margin-bottom: 12px; font-weight: bold; }
+        .product-title { font-size: 19px; font-weight: 800; margin-bottom: 15px; color: var(--text-dark); line-height: 1.4; }
+        
+        /* 안내 문구 */
+        .info-tag { font-size: 13px; color: #8e8e93; margin-bottom: 20px; font-weight: 500; }
+
+        /* 실시간 상담 유도 카카오톡 버튼 스타일 */
+        .buy-btn {
+            display: flex; align-items: center; justify-content: center; width: 100%; padding: 16px 0;
+            background: #fee500; color: #181600; border-radius: 10px; text-decoration: none; 
+            font-weight: 800; font-size: 16px; box-shadow: 0 4px 10px rgba(254,229,0,0.3); transition: all 0.2s;
+        }
+        .buy-btn:hover { opacity: 0.95; transform: translateY(-1px); }
+
+        /* 비밀 배송 보장 안내 섹션 */
+        .shipping-notice {
+            background: #f2f2f7; padding: 20px; border-radius: 12px; text-align: left; margin-top: 30px;
+            border: 1px dashed #c7c7cc;
+        }
+        .shipping-notice h4 { font-size: 15px; color: #000; margin-bottom: 8px; display: flex; align-items: center; gap: 5px; }
+        .shipping-notice p { font-size: 13px; color: #555; line-height: 1.5; }
+
+        /* 하단 푸터 */
+        footer { background: #ffffff; padding: 30px 20px; border-top: 1px solid var(--border-color); font-size: 11px; color: #8e8e93; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <!-- 상단 네비게이션 -->
+    <header>
+        <a href="#" class="logo">MEDICAL WELLNESS</a>
+        <nav>
+            <!-- 💡 아래의 모든 '#' 부분을 실제 운영하시는 상담 채널 링크(Kakao/Telegram 등)로 변경하세요 -->
+            <a href="https://kakao.com" target="_blank" style="color:var(--primary);">실시간 1:1 상담</a>
+        </nav>
+    </header>
+
+    <!-- 메인 컨텐츠 영역 -->
+    <main class="container">
+
+        <!-- 감성 카피라이팅 영역 -->
+        <section class="copy-section">
+            <p>💋💋 마음은 굴뚝같은데… 막상 그 순간이 되면 몸이 따라주지 않아 민망했던 적 있으신가요? 💋</p>
+            <p class="strong-text">💪 단순히 나이 때문이라고 생각하지 마세요.<br>남자의 자신감과 활력을 좌우하는 중요한 신호일 수 있습니다.</p>
+            <p class="highlight-text">🔥 남성 활력을 제대로 챙겨주면,<br>언제 어디서든 더 당당하고 자신감 있게!</p>
+            <p>💋 이미 많은 분들이 직접 경험하고 있다는 후기까지!</p>
+        </section>
+
+        <!-- 가격 없는 상담형 제품 카드 1 -->
+        <div class="product-card">
+            <div class="product-img">🌿</div>
+            <div class="product-tag">BEST 세트</div>
+            <div class="product-title">프리미엄 고농축 활력 컴플렉스</div>
+            <div class="info-tag">※ 본 상품은 전문 상담을 통해 맞춤형 수량을 제안해 드립니다.</div>
+            
+            <!-- 👇 궁금하다면 지금 바로 확인해보세요! 문구 적용 버튼 -->
+            <a href="https://kakao.com" target="_blank" class="buy-btn">
+                👇 궁금하다면 지금 바로 확인해보세요! 💋
+            </a>
+        </div>
+
+        <!-- 가격 없는 상담형 제품 카드 2 -->
+        <div class="product-card">
+            <div class="product-img">🧪</div>
+            <div class="product-tag">강력 추천</div>
+            <div class="product-title">남성 에너지 전용 익스트림 보충제</div>
+            <div class="info-tag">※ 체질 및 목적에 따른 복용법 및 가격 실시간 안내</div>
+            
+            <a href="https://kakao.com" target="_blank" class="buy-btn">
+                👇 궁금하다면 지금 바로 확인해보세요! 💋
+            </a>
+        </div>
+
+        <!-- 철저한 비밀 배송 강조 섹션 -->
+        <section class="shipping-notice">
+            <h4>📦 안심 비밀 배송 보장</h4>
+            <p>걱정 마세요. 아내 몰래, 가족들 몰래 주문해도 겉포장에는 <strong>‘건강식품’</strong>으로만 표시되어 조용하고 안전하게 배송됩니다.</p>
+        </section>
+
+    </main>
+
+    <!-- 하단 법적 고지 및 푸터 -->
+    <footer>
+        <p>본 사이트에서 제공하는 정보는 건강 증진을 목적으로 하며, 의사의 처방을 대신할 수 없습니다.</p>
+        <p style="margin-top: 10px;">Copyright © Medical Wellness. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
